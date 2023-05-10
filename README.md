@@ -1,2 +1,1 @@
-# landing-page
-My first ever email landing page
+This is my first ever landing page
