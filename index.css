@@ -113,7 +113,8 @@ fieldset{
     flex: 1;
     flex: 1;
     margin: 0 0 20px 0;
-    border: 1px solid #4b2200de;
+    box-shadow: 0px 2px 5px #44444441;
+    border: none;
 }
 .form{
     display: flex;
@@ -128,16 +129,18 @@ fieldset{
     text-align: center;
 }
 input{
-    height: 20%;
+    height: 25%;
     margin: 20px;
+    box-shadow: 1px 1px 5px #34343441;
     text-align: center;
-    border: 1px solid #4b2200de;
+    border: none;
 }
 textarea{
-    height: 40%;
-    margin: 8px;
+    height: 50%;
+    margin: 10px;
+    box-shadow: 0px 0px 5px #34343441;
     text-align: center;
-    border: 1px solid #4b2200de;
+    border: none;
 }
 .but{
     height: 10%;
@@ -154,7 +157,7 @@ textarea{
     font-size: 100%;
     letter-spacing: 3px;
     margin: 30px;
-    width: 50%;
+    width: 60%;
     align-self: center;
 }
 legend{
@@ -190,4 +193,7 @@ p{
     position: sticky;
     bottom: 10px;
     left: 900px;
+}
+#email{
+    margin: 0 20px 20px 20px;
 }
